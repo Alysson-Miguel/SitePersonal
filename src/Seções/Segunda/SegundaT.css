@@ -1,0 +1,38 @@
+.LinhaTexto1 {
+    padding-left: 10px;
+    border-left: 7px solid #02b4ef;
+    margin-top: 10px;
+    display: flex;
+}
+
+
+.LinhaTexto2 {
+    border-bottom: 4px solid #02b4ef;
+    width: 15%;
+    margin-bottom: 10px;
+}
+
+.FotoPerfil {
+    margin-top: 13px;
+
+}
+
+.Secao {
+    margin: 10px;
+    margin-bottom: 48px;
+}
+
+.ButaoDuvidas {
+    background-color: #02ef65;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 2px;
+    padding-bottom: 4px;
+    border: none;
+    transition: 'background-color: #5dccf1 0.3 ease-in';
+}
+
+.ButaoDuvidas:hover {
+    background-color: #2fff74;
+}

@@ -1,0 +1,48 @@
+/* Animação do texto  */
+.texto-sobre-imagem {
+    animation: animacao-texto 2s forwards;
+    color: white;
+    left: 2%;
+    width: 40%;
+    top: 30%;
+    position: relative;
+}
+
+@keyframes animacao-texto {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Plano de Fundo */
+.PlanoDeFundo {
+    background: url('../../Img/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.VerPlanos {
+    background-color: #02b4ef;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 2px;
+    padding-bottom: 4px;
+    border: none;
+    color: white;
+    text-decoration: none;
+    transition: 'background-color: #5dccf1 0.3 ease-in';
+}
+
+.VerPlanos:hover {
+    background-color: #2fcbff;
+}

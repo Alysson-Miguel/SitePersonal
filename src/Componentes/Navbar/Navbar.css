@@ -1,0 +1,16 @@
+.Ebook {
+    background-color: #fc6004;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 2px;
+    padding-bottom: 6px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    transition: '0.3 ease-in';
+}
+
+.Ebook:hover {
+    background-color: #f8833f;
+}

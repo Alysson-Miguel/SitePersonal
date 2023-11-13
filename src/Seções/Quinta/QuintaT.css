@@ -1,0 +1,28 @@
+.BackPasso {
+    background-color: black;
+    padding: 60px;
+}
+
+.TituloPasso {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.FotoPassos {
+    display: flex;
+    justify-content: center;
+}
+
+.topicosPasso {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}

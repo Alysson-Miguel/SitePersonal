@@ -1,0 +1,45 @@
+li {
+    list-style: none;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+
+.Mit {
+    width: 70%;
+    height: auto;
+    margin-top: 60px;
+
+
+}
+
+.MitContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.FotoMit {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.Contratar {
+    background-color: #fc6004;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 3px;
+    padding-bottom: 4px;
+    margin-bottom: 80px;
+    margin-top: 20px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    transition: 'background-color: #ff8e4d 0.3 ease-in';
+}
+
+.Contratar:hover {
+    background-color: #ff8e4d;
+}

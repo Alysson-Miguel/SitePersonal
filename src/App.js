@@ -1,24 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import './index.css';
+import Navbarra from "./Componentes/Navbar/Navbar";
+import Primeira from "./Seções/Primeira/Primeira";
+import Segunda from "./Seções/Segunda/Segunda";
+import Terceira from "./Seções/Terceira/Terceira";
+import Quarta from "./Seções/Quarta/Quarta";
+import Quinta from "./Seções/Quinta/Quinta";
+import Sexta from './Seções/Sexta/Sexta';
+import Setima from './Seções/Setima/Setima';
+import Oitava from './Seções/Oitava/Oitava';
+import Rodape from './Componentes/Rodape/Rodape';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbarra />
+      <Primeira />
+      <Segunda />
+      <Terceira />
+      <Quarta />
+      <Quinta />
+      <Sexta />
+      <Setima />
+      <Oitava />
+      <Rodape />
+    </>
+
   );
 }
 
