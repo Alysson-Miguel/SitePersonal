@@ -17,18 +17,18 @@ const Oitava = () => {
         infinite: true,
         speed: 500,
         autoplay: true,
-        autoplaySpeed: 3000,
+        autoplaySpeed: 6000,
         slidesToShow: 1,
         slidesToScroll: 1,
         swipe: true, // Permite a navegação por arrasto com o mouse
-        arrows: false // Remove os botões de navegação
+        arrows: true // Remove os botões de navegação
     };
     return (
         <>
             <div className="Resultado">
                 <Container className="AjudaTreino">
-                    <span style={{ color: '#fc6004', marginTop: '50px', fontWeight: '700' }}>CONFIRA OS RESULTADOS DO</span>
-                    <h2 style={{ fontWeight: '800' }}>TIME EP TEAM</h2>
+                    <span style={{ color: '#fc6004', marginTop: '50px' }}>CONFIRA OS RESULTADOS DO</span>
+                    <p class='h2 bebas' style={{ fontSize: '58px' }}>TIME EP TEAM</p>
                     <Container className="FotosCarrosel">
                         <Slider {...settings}>
                             <Image src={Foto1} alt='Foto1' />

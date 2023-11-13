@@ -36,7 +36,8 @@ li {
     margin-top: 20px;
     border: none;
     color: white;
-    font-weight: 700;
+    font-size: 25px;
+    font-family: 'Bebas Neue', sans-serif;
     transition: 'background-color: #ff8e4d 0.3 ease-in';
 }
 

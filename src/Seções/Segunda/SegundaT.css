@@ -14,12 +14,25 @@
 
 .FotoPerfil {
     margin-top: 13px;
+    width: 90%;
+    height: auto;
+    margin-left: 10px;
+    padding: 10px;
 
 }
 
 .Secao {
     margin: 10px;
     margin-bottom: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    padding: 50px;
+    margin-left: 10%;
+
+
+
 }
 
 .ButaoDuvidas {

@@ -2,10 +2,11 @@
 .texto-sobre-imagem {
     animation: animacao-texto 2s forwards;
     color: white;
-    left: 2%;
     width: 40%;
-    top: 30%;
-    position: relative;
+    margin-top: 10%;
+
+
+
 }
 
 @keyframes animacao-texto {
@@ -25,9 +26,11 @@
     background: url('../../Img/background.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
-    padding: 0;
-    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5%;
+    padding-bottom: 30%;
 }
 
 .VerPlanos {

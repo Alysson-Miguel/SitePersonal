@@ -16,11 +16,11 @@ const Quarta = () => {
                             <h1 style={{ fontWeight: '700' }}>SEU TREINO SERÁ ENTREGUE EM ALTO NÍVEL</h1>
                             <span style={{ opacity: '0.6' }}>Utilizando toda a tecnologia em benefício dos seus resultados</span>
                             <ul>
-                                <li><FontAwesomeIcon icon={faCheck} /> Vídeos demonstrativos;</li>
-                                <li><FontAwesomeIcon icon={faCheck} /> Registros de frequência;</li>
-                                <li><FontAwesomeIcon icon={faCheck} /> Material de apoio exclusivo;</li>
-                                <li><FontAwesomeIcon icon={faCheck} /> Acompanhamento no WhatsApp;</li>
-                                <li><FontAwesomeIcon icon={faCheck} /> Compativel com todos os smartphones;</li>
+                                <li><p class='montBold'><FontAwesomeIcon icon={faCheck} /> Vídeos demonstrativos;</p></li>
+                                <li><p class='montBold'><FontAwesomeIcon icon={faCheck} /> Registros de frequência;</p></li>
+                                <li><p class='montBold'><FontAwesomeIcon icon={faCheck} /> Material de apoio exclusivo;</p></li>
+                                <li><p class='montBold'><FontAwesomeIcon icon={faCheck} /> Acompanhamento no WhatsApp;</p></li>
+                                <li><p class='montBold'><FontAwesomeIcon icon={faCheck} /> Compativel com todos os smartphones;</p></li>
                             </ul>
                         </div>
                         <button className="Contratar"><Nav.Link href="https://wa.me/5581987602699" target="self">CONTRATAR AGORA</Nav.Link></button>
