@@ -1,9 +1,10 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 import { Row, Col } from "react-bootstrap"
-import { Image, Nav } from "react-bootstrap";
+import { Nav } from "react-bootstrap";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
+import Image from 'react-bootstrap/Image';
 import Mit from '../../Img/MitPersonal.png';
 import './QuartaT.css';
 const Quarta = () => {
@@ -26,7 +27,7 @@ const Quarta = () => {
                         <button className="Contratar"><Nav.Link href="https://wa.me/5581987602699" target="self">CONTRATAR AGORA</Nav.Link></button>
                     </Col>
                     <Col md={5}>
-                        <Image src={Mit} alt='FotoMit' />
+                        <Image src={Mit} fluid />
                     </Col>
                 </Row>
 

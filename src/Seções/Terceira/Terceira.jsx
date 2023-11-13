@@ -23,18 +23,18 @@ const Terceira = () => {
                     <Row className="Fotos" style={{ marginBottom: '10px' }}>
                         <Col md={4} className="topicosTreino">
 
-                            <Image src={Emagrecimento} fluid alt='Emagrecimento' />
-                            <span class='bebas' style={{ backgroundColor: 'white', color: '#02b4ef', width: '100%', textAlign: 'center', fontSize: '30px' }} >EMAGRECIMENTO</span>
+                            <Image src={Emagrecimento} fluid  />
+                            {/* <span class='bebas' style={{ backgroundColor: 'white', color: '#02b4ef', width: '100%', textAlign: 'center', fontSize: '30px' }} >EMAGRECIMENTO</span> */}
                         </Col>
                         <Col md={4} className="topicosTreino">
 
-                            <Image src={Hipertrofia} fluid alt='Hipertrofia' />
-                            <span class='bebas' style={{ backgroundColor: 'white', color: '#02b4ef', width: '100%', textAlign: 'center', fontSize: '30px' }} >HIPERTROFIA</span>
+                            <Image src={Hipertrofia} fluid  />
+                            {/* <span class='bebas' style={{ backgroundColor: 'white', color: '#02b4ef', width: '100%', textAlign: 'center', fontSize: '30px' }} >HIPERTROFIA</span> */}
                         </Col>
                         <Col md={4} className="topicosTreino">
 
-                            <Image src={DefMuscular} fluid alt='DefMuscular' />
-                            <span class='bebas' style={{ backgroundColor: 'white', color: '#02b4ef', width: '100%', textAlign: 'center', fontSize: '30px' }} >DEFINIÇÃO MUSCULAR</span>
+                            <Image src={DefMuscular} fluid />
+                            {/* <span class='bebas' style={{ backgroundColor: 'white', color: '#02b4ef', width: '100%', textAlign: 'center', fontSize: '30px' }} >DEFINIÇÃO MUSCULAR</span> */}
                         </Col>
                     </Row>
                 </Container>
