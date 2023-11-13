@@ -11,7 +11,7 @@ const Segunda = () => {
         <Container className="Secao">
             <Row>
                 <Col md={5} sm={12}>
-                    <Image src={FotoPerfil} alt="FotoPerfil" fluid className="FotoPerfil" />
+                    <Image src={FotoPerfil} className="FotoPerfil" fluid/>
                     <div className="LinhaTexto1">
                         <p style={{ opacity: '0.5', paddingTop: '10px' }}>Personal trainer registrado no Conselho Regional de Educalçao Física sob o número 014336-G/PE.</p>
                     </div>
@@ -29,7 +29,7 @@ const Segunda = () => {
                             Atualmente, meu propósito é compartilhar esse conhecimento adquirido, contribuindo não apenas para o aprimoramento físico, mas também para a saúde das pessoas.
                             Isso é realizado por meio da minha  consultoria, disponível tanto online quanto presencial, visando melhorar e desenvolver não apenas o corpo, mas também a qualidade de vida de cada indivíduo. </p>
                         <Nav>
-                            <button className="ButaoDuvidas"><Nav.Link href="https://wa.me/5581987602699" target="self" style={{ color: 'white', fontWeight: '700' }} ><Image src={WhatsappB} /> TIRE SUAS DÚVIDAS</Nav.Link></button>
+                            <button className="ButaoDuvidas"><Nav.Link href="https://wa.me/5581987602699" target="self" style={{ color: 'white', fontWeight: '700' }} ><Image src={WhatsappB} fluid/> TIRE SUAS DÚVIDAS</Nav.Link></button>
                         </Nav>
                     </aside>
                 </Col>

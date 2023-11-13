@@ -4,10 +4,9 @@
     color: white;
     width: 40%;
     margin-top: 10%;
-
-
-
+    position: relative;
 }
+
 
 @keyframes animacao-texto {
     from {
