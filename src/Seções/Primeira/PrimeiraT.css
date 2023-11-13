@@ -2,11 +2,10 @@
 .texto-sobre-imagem {
     animation: animacao-texto 2s forwards;
     color: white;
-    width: 40%;
-    margin-top: 10%;
-    position: relative;
+    margin-left: 2%;
+    width: 100%;
+    padding-top: 10%;
 }
-
 
 @keyframes animacao-texto {
     from {
@@ -20,17 +19,7 @@
     }
 }
 
-/* Plano de Fundo */
-.PlanoDeFundo {
-    background: url('../../Img/background.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 5%;
-    padding-bottom: 30%;
-}
+
 
 .VerPlanos {
     background-color: #02b4ef;
@@ -43,8 +32,23 @@
     color: white;
     text-decoration: none;
     transition: 'background-color: #5dccf1 0.3 ease-in';
+    margin-top: 2%;
+    margin-bottom: 20%;
+
+
 }
 
 .VerPlanos:hover {
     background-color: #2fcbff;
+}
+
+
+/*  */
+.secao-com-fundo {
+    background-image: url('../../Img/background.png');
+    background-size: cover;
+    /* Para cobrir toda a área */
+    background-position: center;
+    /* Centraliza a imagem */
+
 }

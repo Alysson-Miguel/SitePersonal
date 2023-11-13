@@ -24,7 +24,7 @@ function App() {
       <Sexta />
       <Setima />
       <Oitava />
-      {/* <Rodape /> */}
+      <Rodape />
     </>
 
   );

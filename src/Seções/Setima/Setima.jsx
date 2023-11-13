@@ -12,7 +12,7 @@ const Setima = () => {
                 </Container>
                 <Container className="PlanosPresencial">
                     <Row>
-                        <Col style={{ color: 'black', paddingBottom: '55px' }}>
+                        <Col style={{ color: 'black', paddingBottom: '55px', paddingTop: '50px' }}>
 
                             <h1 style={{ color: '#fc6004' }} >INDIVIDUAL</h1>
                             <h2 style={{ color: '#fc6004' }}>X5 na semana<br /> R$600</h2>
@@ -22,11 +22,11 @@ const Setima = () => {
                                 <li>1 planilha personalizada</li>
                                 <li>Suporte online todos os dias</li>
                                 <li>Treino no app</li>
-                                <li>Acesso ao grupo EFTEAM</li>
+                                <li>Acesso ao grupo EP TEAM</li>
 
                             </ul>
                         </Col>
-                        <Col style={{ backgroundColor: '#fc6004', color: 'white', paddingBottom: '55px' }}>
+                        <Col style={{ backgroundColor: '#fc6004', color: 'white', paddingBottom: '55px', paddingTop: '50px' }}>
 
                             <h1  >EM DUPLA</h1>
                             <h2>X5 na semana<br /> R$999</h2>
@@ -36,7 +36,7 @@ const Setima = () => {
                                 <li>1 planilha personalizada</li>
                                 <li>Suporte online todos os dias</li>
                                 <li>Treino no app</li>
-                                <li>Acesso ao grupo EFTEAM</li>
+                                <li>Acesso ao grupo EP TEAM</li>
 
                             </ul>
                         </Col>
