@@ -1,6 +1,5 @@
 import React from "react";
 import './index.css';
-import Navbarra from "./Componentes/Navbar/Navbar";
 import Primeira from "./Seções/Primeira/Primeira";
 import Segunda from "./Seções/Segunda/Segunda";
 import Terceira from "./Seções/Terceira/Terceira";
