@@ -15,7 +15,6 @@ import Oitava from './Seções/Oitava/Oitava';
 function App() {
   return (
     <>
-      <Navbarra />
       <Primeira />
       <Segunda />
       <Terceira />

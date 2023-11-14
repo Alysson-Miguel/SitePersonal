@@ -2,8 +2,14 @@
 .texto-sobre-imagem {
     animation: animacao-texto 2s forwards;
     color: white;
-    width: 100%;
-    padding-top: 10%;
+    width: 35%;
+    padding-top: 12%;
+    margin-left: 45px;
+
+}
+
+.texto-sobre-imagem p {
+    width: 68%;
 }
 
 @keyframes animacao-texto {
@@ -18,8 +24,6 @@
     }
 }
 
-
-
 .VerPlanos {
     background-color: #02b4ef;
     border-radius: 10px;
@@ -31,9 +35,7 @@
     color: white;
     text-decoration: none;
     transition: 'background-color: #5dccf1 0.3 ease-in';
-    margin-top: 2%;
     margin-bottom: 20%;
-
 
 }
 
@@ -47,5 +49,15 @@
     background-image: url('../../Img/background.png');
     background-size: cover;
     background-position: center;
+    padding-bottom: 200px;
+}
 
+@media only screen and (max-width: 768px) {
+    .texto-sobre-imagem {
+        margin-left: 5px;
+    }
+    .texto-sobre-imagem p {
+        width: 265%;
+        display: inline-block;
+    }
 }

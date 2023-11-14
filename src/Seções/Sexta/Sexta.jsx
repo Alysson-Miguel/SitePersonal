@@ -14,14 +14,14 @@ const Sexta = () => {
 
             <Container>
                 <Container className="Planos" id="Planos">
-                    <h2>PLANOS ONLINE</h2>
+                    <h1 className="bebas">PLANOS ONLINE</h1>
                     <div className="LinhaTreino"></div>
                 </Container>
                 <Container>
                     <Row>
                         <Col md={4}>
 
-                            <Image src={Preco1ON} fluid />
+                            <Image src={Preco3ON} fluid />
                         </Col>
 
                         <Col md={4} >
@@ -31,7 +31,7 @@ const Sexta = () => {
                         </Col>
                         <Col md={4}>
 
-                            <Image src={Preco3ON} fluid />
+                            <Image src={Preco1ON} fluid />
                         </Col>
 
                     </Row>

@@ -6,19 +6,17 @@ import Youtube from '../../Img/youtube.png';
 import Instagram from '../../Img/instagram.png';
 import Whatsapp from '../../Img/whatsapp.png';
 import Logo from '../../Img/Logo.png';
-
-
 import './Navbar.css';
 
 const NavBar = () => {
     return (
-        <Navbar collapseOnSelect expand="lg" bg="black" variant="black">
-            <Navbar.Brand href="texto-sobre-imagem">
+        <Navbar collapseOnSelect expand="lg" className='NavbarF'>
+            <Navbar.Brand href="texto-sobre-imagem" >
                 <Image src={Logo} alt='Logo' style={{ height: '10vh', marginLeft: '50px' }} />
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav ">
-                <Nav className="ms-auto align-items-center">
+                <Nav className="ms-auto align-items-center" >
                     <Nav.Link>
                         <Link to="TituloPasso" smooth={true} duration={35} style={{ color: 'white', fontWeight: 'bold' }}>
                             Como funciona?
