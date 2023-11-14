@@ -9,7 +9,7 @@ import Quinta from "./Seções/Quinta/Quinta";
 import Sexta from './Seções/Sexta/Sexta';
 import Setima from './Seções/Setima/Setima';
 import Oitava from './Seções/Oitava/Oitava';
-import Rodape from './Componentes/Rodape/Rodape';
+
 
 
 function App() {
@@ -24,7 +24,6 @@ function App() {
       <Sexta />
       <Setima />
       <Oitava />
-      <Rodape />
     </>
 
   );

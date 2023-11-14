@@ -29,10 +29,8 @@ const NavBar = () => {
                             Quem sou eu?
                         </Link>
                     </Nav.Link>
-                    <Nav.Link>
-                        <Link href='https://wa.me/5581987602699' smooth={true} duration={35} style={{ color: 'white', fontWeight: 'bold' }}>
-                            Seja aluno
-                        </Link>
+                    <Nav.Link href='https://wa.me/5581987602699' target='self' style={{ color: 'white', fontWeight: 'bold', textDecoration: 'none' }}>
+                        Seja aluno
                     </Nav.Link>
                     <Nav.Link >
                         <Link to="section3" smooth={true} duration={35} className='Ebook'>

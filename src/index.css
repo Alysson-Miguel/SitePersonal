@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;600;700&display=swap');
 
-body {
+body,
+html,
+#root {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
+  height: 100%;
+
 
 }
 

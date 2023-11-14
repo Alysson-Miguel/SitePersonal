@@ -1,6 +1,9 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 import { Col, Row } from "react-bootstrap"
+import Preco1PRE from "../../Img/PRECO1ON.png";
+import Preco2PRE from "../../Img/PRECO2PRE.png";
+import Image from "react-bootstrap/Image";
 import './SetimaT.css'
 const Setima = () => {
     return (
@@ -11,36 +14,13 @@ const Setima = () => {
                     <div className="LinhaTreino"></div>
                 </Container>
                 <Container className="PlanosPresencial">
-                    <Row>
-                        <Col style={{ color: 'black', paddingBottom: '55px', paddingTop: '50px' }}>
-
-                            <h1 style={{ color: '#fc6004' }} >INDIVIDUAL</h1>
-                            <h2 style={{ color: '#fc6004' }}>X5 na semana<br /> R$600</h2>
-                            <ul style={{ padding: '15px' }}>
-                                <li>Acompanhamento presencial</li>
-                                <li style={{ textDecoration: 'line-through', textDecorationColor: '#fc6004' }}>Acompanhamento em Dupla</li>
-                                <li>1 planilha personalizada</li>
-                                <li>Suporte online todos os dias</li>
-                                <li>Treino no app</li>
-                                <li>Acesso ao grupo EP TEAM</li>
-
-                            </ul>
+                    <Row className="justify-content-center">
+                        <Col xs={12} md={6} lg={4} className="text-center">
+                            <Image src={Preco1PRE} fluid />
                         </Col>
-                        <Col style={{ backgroundColor: '#fc6004', color: 'white', paddingBottom: '55px', paddingTop: '50px' }}>
-
-                            <h1  >EM DUPLA</h1>
-                            <h2>X5 na semana<br /> R$999</h2>
-                            <ul style={{ padding: '15px' }}>
-                                <li>Acompanhamento presencial</li>
-                                <li>Acompanhamento em Dupla</li>
-                                <li>1 planilha personalizada</li>
-                                <li>Suporte online todos os dias</li>
-                                <li>Treino no app</li>
-                                <li>Acesso ao grupo EP TEAM</li>
-
-                            </ul>
+                        <Col xs={12} md={6} lg={4} className="text-center">
+                            <Image src={Preco2PRE} fluid />
                         </Col>
-
                     </Row>
 
                 </Container >

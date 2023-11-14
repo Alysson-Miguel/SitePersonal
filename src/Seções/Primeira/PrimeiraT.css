@@ -2,7 +2,6 @@
 .texto-sobre-imagem {
     animation: animacao-texto 2s forwards;
     color: white;
-    margin-left: 2%;
     width: 100%;
     padding-top: 10%;
 }
@@ -47,8 +46,6 @@
 .secao-com-fundo {
     background-image: url('../../Img/background.png');
     background-size: cover;
-    /* Para cobrir toda a área */
     background-position: center;
-    /* Centraliza a imagem */
 
 }
