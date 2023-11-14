@@ -10,9 +10,6 @@
     width: 10%;
     border-bottom: 4px solid #fc6004;
     margin-bottom: 50px;
-
-
-
 }
 
 .Fotos {
@@ -40,4 +37,10 @@
 .Envolver {
     background-color: black;
     padding: 100px;
+}
+
+@media only screen and (max-width: 768px) {
+    .h4 {
+        width: 200%;
+    }
 }

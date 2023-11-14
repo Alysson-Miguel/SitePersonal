@@ -56,8 +56,21 @@
     .texto-sobre-imagem {
         margin-left: 5px;
     }
+
     .texto-sobre-imagem p {
         width: 265%;
         display: inline-block;
+    }
+
+    .texto-sobre-imagem h4 {
+        width: 225%;
+
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .VerPlanos {
+        display: inline-block;
+        white-space: nowrap;
     }
 }

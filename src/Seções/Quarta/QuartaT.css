@@ -4,6 +4,10 @@ li {
     margin-top: 12px;
 }
 
+ul {
+    padding-left: 0;
+}
+
 
 .Mit {
     width: 70%;
@@ -43,4 +47,18 @@ li {
 
 .Contratar:hover {
     background-color: #ff8e4d;
+}
+
+#babeFonte {
+    font-size: 50px;
+    font-weight: 500;
+    color: black;
+    line-height: 0.9;
+    width: 56%;
+}
+
+@media only screen and (max-width: 768px) {
+    #babeFonte {
+        width: 100%;
+    }
 }

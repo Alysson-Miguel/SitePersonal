@@ -14,7 +14,7 @@ const Terceira = () => {
                 <Container className="AjudaTreino">
                     <p class='h2 bebas' style={{ fontSize: "39px" }}>COMO EU VOU TE AJUDAR</p>
                     <div className="LinhaTreino"></div>
-                    <p class='h4 montBold' style={{fontSize:"15px"}}>Através da minha consultoria de treinamento, você<br />
+                    <p class='h4 montBold' style={{ fontSize: "15px" }}>Através da minha consultoria de treinamento, você<br />
                         terá a oportunidade de receber treinos personalizados,<br />
                         perfeitamente adaptados aos seus objetivos, disponibilidade e<br />
                         levando em consideração todo seu histórico de treinamento.</p>
@@ -23,12 +23,12 @@ const Terceira = () => {
                     <Row className="Fotos" style={{ marginBottom: '10px' }}>
                         <Col md={4} className="topicosTreino">
 
-                            <Image src={Emagrecimento} fluid  />
+                            <Image src={Emagrecimento} fluid />
                             {/* <span class='bebas' style={{ backgroundColor: 'white', color: '#02b4ef', width: '100%', textAlign: 'center', fontSize: '30px' }} >EMAGRECIMENTO</span> */}
                         </Col>
                         <Col md={4} className="topicosTreino">
 
-                            <Image src={Hipertrofia} fluid  />
+                            <Image src={Hipertrofia} fluid />
                             {/* <span class='bebas' style={{ backgroundColor: 'white', color: '#02b4ef', width: '100%', textAlign: 'center', fontSize: '30px' }} >HIPERTROFIA</span> */}
                         </Col>
                         <Col md={4} className="topicosTreino">
