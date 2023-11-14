@@ -6,6 +6,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import Foto1 from '../../Img/01 - THAINÁ.png';
 import Foto2 from '../../Img/02 - THAINÁ.png';
 import Foto3 from '../../Img/03 - THAINÁ.png';
+import Carousel from 'react-bootstrap/Carousel';
 import './OitavaT.css'
 
 
@@ -27,13 +28,13 @@ const Oitava = () => {
         <>
             <div className="Resultado">
                 <Container className="AjudaTreino">
-                    <span style={{ color: '#fc6004', marginTop: '50px' }}>CONFIRA OS RESULTADOS DO</span>
-                    <p class='h2 bebas' style={{ fontSize: '58px' }}>TIME EP TEAM</p>
+                    <span style={{ color: '#fc6004', marginTop: '50px', marginBotton:'0px', paddingBottom:'0px', lineHeight:'0.2' }}>CONFIRA OS RESULTADOS DO</span>
+                    <p class='h3 bebas' style={{ fontSize: '58px', marginTop:'0px', paddingTop:'0px' }}>TIME EP TEAM</p>
                     <Container className="FotosCarrosel">
                         <Slider {...settings}>
-                            <Image src={Foto1} alt='Foto1' />
-                            <Image src={Foto2} alt='Foto2' />
-                            <Image src={Foto3} alt='Foto2' />
+                            <Image src={Foto1} fluid />
+                            <Image src={Foto2} fluid/>
+                            <Image src={Foto3} fluid/>
                         </Slider>
                     </Container>
                 </Container>

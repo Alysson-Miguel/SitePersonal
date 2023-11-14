@@ -49,3 +49,10 @@
 .ButaoDuvidas:hover {
     background-color: #2fff74;
 }
+
+@media only screen and (max-width: 768px) {
+    .ButaoDuvidas {
+        display: inline-block;
+        white-space: nowrap;
+    }
+}

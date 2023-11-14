@@ -1,6 +1,7 @@
 import React from "react";
 import './PrimeiraT.css';
-import Container from "react-bootstrap/Container";
+import '../../Componentes/Navbar/Navbar';
+import Navbar from "../../Componentes/Navbar/Navbar";
 
 const PrimeiraT = () => {
     const scrollToSection = () => {
@@ -13,16 +14,13 @@ const PrimeiraT = () => {
     return (
         <>
             <section className="secao-com-fundo">
-                <Container className="texto-sobre-imagem">
-                    <p class='h1'>AJUDO A CONSTRUIR<br /> SEU FÍSICO ATRAVÉS DA<br /> <p style={{ fontSize: '40px', fontWeight: '900' }}>MUSCULAÇÃO</p></p>
-                    <p>Conheça minha consultoria de treinamento,disponível<br />
-                        tanto online como presencial, e alcance resultados com<br />
-                        <strong>a musculação pura e de verdade.</strong></p>
-                    <button onClick={scrollToSection} className="VerPlanos">VER PLANOS</button>
-                </Container>
-
-
-            </section>
+                <Navbar />
+                <div className="texto-sobre-imagem">
+                    <h4 style={{ fontWeight: '800' }}> AJUDO A CONSTRUIR<br /> SEU FÍSICO ATRAVÉS DA</h4><h1 className="montExtraBold"> MUSCULAÇÃO</h1>
+                    <p>Conheça minha consultoria de treinamento, disponível tanto online como presencial, e alcance resultados com <strong>a musculação pura e de verdade.</strong></p>
+                    <button onClick={scrollToSection} className="VerPlanos" >VER PLANOS</button>
+                </div>
+            </section >
         </>
     );
 }

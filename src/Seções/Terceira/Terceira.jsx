@@ -12,9 +12,9 @@ const Terceira = () => {
         <>
             <div className="Envolver">
                 <Container className="AjudaTreino">
-                    <p class='h1 bebas' style={{ fontSize: "50px" }}>COMO EU VOU TE AJUDAR</p>
+                    <p class='h2 bebas' style={{ fontSize: "39px" }}>COMO EU VOU TE AJUDAR</p>
                     <div className="LinhaTreino"></div>
-                    <p class='montBold'>Através da minha consultoria de treinamento, você<br />
+                    <p class='h4 montBold' style={{fontSize:"15px"}}>Através da minha consultoria de treinamento, você<br />
                         terá a oportunidade de receber treinos personalizados,<br />
                         perfeitamente adaptados aos seus objetivos, disponibilidade e<br />
                         levando em consideração todo seu histórico de treinamento.</p>

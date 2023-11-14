@@ -11,12 +11,12 @@ const Quarta = () => {
     return (
         <>
             <Container className="MitContainer">
-                <Row>
-                    <Col md={5}>
+                <Row className="justify-content-center">
+                    <Col>
                         <div className="Mit">
-                            <h1 style={{ fontWeight: '700' }}>SEU TREINO SERÁ ENTREGUE EM ALTO NÍVEL</h1>
-                            <span style={{ opacity: '0.6' }}>Utilizando toda a tecnologia em benefício dos seus resultados</span>
-                            <ul>
+                            <h1 className="bebas" style={{ fontSize:'50px', fontWeight: '500', color:'black', lineHeight:'0.9', width:'56%' }}>SEU TREINO SERÁ ENTREGUE EM ALTO NÍVEL</h1>
+                            <span style={{ opacity: '0.6' }}>Utilizando toda a tecnologia em <br/>benefício dos seus resultados</span><br/>
+                            <ul className="text-align-left">
                                 <li><p class='montBold'><FontAwesomeIcon icon={faCheck} /> Vídeos demonstrativos;</p></li>
                                 <li><p class='montBold'><FontAwesomeIcon icon={faCheck} /> Registros de frequência;</p></li>
                                 <li><p class='montBold'><FontAwesomeIcon icon={faCheck} /> Material de apoio exclusivo;</p></li>
@@ -27,7 +27,7 @@ const Quarta = () => {
                         <button className="Contratar"><Nav.Link href="https://wa.me/5581987602699" target="self">CONTRATAR AGORA</Nav.Link></button>
                     </Col>
                     <Col md={5}>
-                        <Image src={Mit} fluid />
+                        <Image src={Mit} fluid style={{marginTop:'25px', marginBottom:'50px'}} />
                     </Col>
                 </Row>
 

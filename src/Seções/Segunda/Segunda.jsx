@@ -19,7 +19,7 @@ const Segunda = () => {
                 <Col md={7} sm={12} className="d-flex align-items-right justify-content-right">
                     <aside className="Texto">
                         <p style={{ color: '#02b4ef', textTransform: 'uppercase', marginTop: '20px', fontWeight: '400' }}>Sobre mim</p>
-                        <h1>Eliebson Pereira</h1>
+                        <h1 class="bebas" style={{fontWeight:'500', fontSize:'55px'}}>Eliebson Pereira</h1>
                         <div className="LinhaTexto2">
                         </div>
                         <p style={{ fontWeight: 'bold' }}> Como profissional de Educação Física e Treinador, possuo  formação pela Unifbv Wyden e especialização em musculação voltada para hipertrofia e emagrecimento.

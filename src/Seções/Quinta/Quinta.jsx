@@ -14,45 +14,45 @@ const Quinta = () => {
         <>
             <div className="BackPasso">
                 <Container className="TituloPasso">
-                    <h1>PASSO A PASSO</h1>
-                    <span style={{ color: '#fc6004', fontSize: '15.5px' }}>PARA CONTRATAR CONSULTORIA ONLINE</span>
+                    <p class='h1 bebas' style={{fontSize:'58px', marginBottom:'0px', lineHeight:'0.9'}}>PASSO A PASSO</p>
+                    <span style={{ color: '#fc6004', fontSize: '12.5px', marginTop:'0px', paddingTop:'0px'}}>PARA CONTRATAR CONSULTORIA ONLINE</span>
                 </Container>
                 <Container>
                     <Row className="FotosPasso">
                         <Col md={4} className="topicosPasso">
 
-                            <Image src={Hand} alt="Hand" style={{ height: '12vh' }} />
+                            <Image src={Hand} alt="Hand" style={{ height: '10vh' }} />
                             <h5 style={{ color: 'white', fontWeight: '700' }} >1. Escolha o plano</h5>
-                            <span>30,90 ou 180 dias de acompanhamento. 1 planilha para cada 30 dias.</span>
+                            <span>30, 90 ou 180 dias de<br/> acompanhamento. <br/>1 planilha para cada 30 dias.</span>
                         </Col>
                         <Col md={4} className="topicosPasso">
-                            <Image src={Card} alt="Card" style={{ height: '12vh' }} />
+                            <Image src={Card} alt="Card" style={{ height: '10vh' }} />
                             <h5 style={{ color: 'white', fontWeight: '700' }} >2. Faça o pagamento</h5>
-                            <span>Paque com cartão de crédito à vista ou parcele em até 6 vezes.</span>
+                            <span>Paque com cartão de<br/> crédito à vista<br/> ou parcele em até<br/> 10X (*com acréscimo).</span>
                         </Col>
                         <Col md={4} className="topicosPasso">
-                            <Image src={Form} alt="Form" style={{ height: '12vh' }} />
+                            <Image src={Form} alt="Form" style={{ height: '10vh' }} />
                             <h5 style={{ color: 'white', fontWeight: '700' }} >3. Preencha a anamnese</h5>
-                            <span>Após a confirmação do pagamento você vai receber o questionário de avaliação física.</span>
+                            <span>Após a confirmação do<br/> pagamento você<br/> vai receber o questionário<br/> de avaliação física.</span>
                         </Col>
                     </Row>
-
+                    <br/><br/>
                     <Row className="FotosPasso">
                         <Col md={4} className="topicosPasso">
 
-                            <Image src={Contrato} alt="Contrato" style={{ height: '12vh' }} />
+                            <Image src={Contrato} alt="Contrato" style={{ height: '10vh' }} />
                             <h5 style={{ color: 'white', fontWeight: '700' }} >4. Aguarde a planilha</h5>
-                            <span>Em até 7 dias após o recebimento das suas respostas o seu treino estará pronto.</span>
+                            <span>Em até 7 dias após o<br/> recebimento das suas<br/> respostas o seu treino<br/> estará pronto.</span>
                         </Col>
                         <Col md={4} className="topicosPasso">
-                            <Image src={Smart} alt="Smart" style={{ height: '12vh' }} />
+                            <Image src={Smart} alt="Smart" style={{ height: '10vh' }} />
                             <h5 style={{ color: 'white', fontWeight: '700' }} >5. Acesse o app</h5>
-                            <span>Enquanto aguarda a planilha ficar pronta você já terá acesso a todo o material disponível no app.</span>
+                            <span>Enquanto aguarda a planilha<br/> ficar pronta você já terá<br/> acesso a todo o material<br/> disponível no app.</span>
                         </Col>
                         <Col md={4} className="topicosPasso">
-                            <Image src={Trofeu} alt="Trofeu" style={{ height: '12vh' }} />
-                            <h5 style={{ color: 'white', fontWeight: '700' }} >6. Conte com o meu suporte</h5>
-                            <span>estarei a sua disposição todos os dias da semana para tirar dúvidas.</span>
+                            <Image src={Trofeu} alt="Trofeu" style={{ height: '10vh' }} />
+                            <h5 style={{ color: 'white', fontWeight: '700' }} >6. Conte com meu suporte</h5>
+                            <span>Estarei a sua disposição<br/> todos os dias da semana<br/> para tirar dúvidas.</span>
                         </Col>
                     </Row>
                 </Container>
