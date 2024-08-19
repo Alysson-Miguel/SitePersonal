@@ -27,7 +27,7 @@ const NavBar = () => {
                             Quem sou eu?
                         </Link>
                     </Nav.Link>
-                    <Nav.Link href='https://wa.me/5581987602699' target='self' style={{ color: 'white', fontWeight: 'bold', textDecoration: 'none' }}>
+                    <Nav.Link href='https://wa.me/#' target='self' style={{ color: 'white', fontWeight: 'bold', textDecoration: 'none' }}>
                         Seja aluno
                     </Nav.Link>
                     <Nav.Link >
@@ -39,7 +39,7 @@ const NavBar = () => {
                 <Nav className='align-items-center'>
                     <Nav.Link href="https://www.youtube.com/@eliebsonpereira2580" target="self" ><Image src={Youtube} /></Nav.Link>
                     <Nav.Link href="https://www.instagram.com/eliebsonpereira/" target="self"><Image src={Instagram} /></Nav.Link>
-                    <Nav.Link href="https://wa.me/5581987602699" target="self"><Image src={Whatsapp} /></Nav.Link>
+                    <Nav.Link href="https://wa.me/#" target="self"><Image src={Whatsapp} /></Nav.Link>
 
                 </Nav>
             </Navbar.Collapse>

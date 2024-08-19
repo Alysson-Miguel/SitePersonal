@@ -24,7 +24,7 @@ const Quarta = () => {
                                 <li><p class='montBold'><FontAwesomeIcon icon={faCheck} /> Compativel com todos os smartphones;</p></li>
                             </ul>
                         </div>
-                        <button className="Contratar"><Nav.Link href="https://wa.me/5581987602699" target="self">CONTRATAR AGORA</Nav.Link></button>
+                        <button className="Contratar"><Nav.Link href="https://wa.me/#" target="self">CONTRATAR AGORA</Nav.Link></button>
                     </Col>
                     <Col md={5}>
                         <Image src={Mit} fluid style={{ marginTop: '25px', marginBottom: '50px' }} />

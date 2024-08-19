@@ -1,10 +1,10 @@
 .Ebook {
     background-color: #fc6004;
-    border-radius: 20px;
+    border-radius: 15px;
     padding-left: 30px;
     padding-right: 30px;
-    padding-top: 2px;
-    padding-bottom: 6px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-weight: bold;
     color: white;
     text-decoration: none;
@@ -17,4 +17,5 @@
 
 .NavbarF {
     background-color: rgba(0, 0, 0, 0.5);
+
 }
