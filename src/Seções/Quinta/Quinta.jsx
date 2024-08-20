@@ -14,7 +14,7 @@ const Quinta = () => {
         <>
             <div className="BackPasso">
                 <Container className="TituloPasso">
-                    <p class='h1 bebas' style={{fontSize:'58px', marginBottom:'0px', lineHeight:'0.9'}}>PASSO A PASSO</p>
+                    <p class='h1'>PASSO A PASSO</p>
                     <span style={{ color: '#fc6004', fontSize: '12.5px', marginTop:'0px', paddingTop:'0px'}}>PARA CONTRATAR CONSULTORIA ONLINE</span>
                 </Container>
                 <Container>
