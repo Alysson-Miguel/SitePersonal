@@ -6,7 +6,6 @@ import 'slick-carousel/slick/slick-theme.css';
 import Foto1 from '../../Img/01 - THAINÁ.png';
 import Foto2 from '../../Img/02 - THAINÁ.png';
 import Foto3 from '../../Img/03 - THAINÁ.png';
-import Carousel from 'react-bootstrap/Carousel';
 import './OitavaT.css'
 
 
