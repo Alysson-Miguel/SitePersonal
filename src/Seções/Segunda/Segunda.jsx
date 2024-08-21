@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
 import './SegundaT.css';
-import FotoPerfil from '../../Img/PERFIL.jpg';
+import FotoPerfil from '../../Img/Logo.png'; //foto perfil da pessoa retirada e substituida pelo logo da empresa
 import Nav from 'react-bootstrap/Nav';
 import WhatsappB from '../../Img/whatsappB.png';
 
@@ -19,7 +19,7 @@ const Segunda = () => {
                 <Col md={7} sm={12} >
                     <aside className="Texto">
                         <h5 >Sobre mim</h5>
-                        <h1>Eliebson Pereira</h1>
+                        <h1>Nome</h1>
                         <div className="LinhaTexto2">
                         </div>
                         <p > Como profissional de Educação Física e Treinador, possuo  formação pela Unifbv Wyden e especialização em musculação voltada para hipertrofia e emagrecimento.
