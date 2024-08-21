@@ -37,8 +37,8 @@ const NavBar = () => {
                     </Nav.Link>
                 </Nav>
                 <Nav className='align-items-center'>
-                    <Nav.Link href="https://www.youtube.com/@eliebsonpereira2580" target="self" ><Image src={Youtube} /></Nav.Link>
-                    <Nav.Link href="https://www.instagram.com/eliebsonpereira/" target="self"><Image src={Instagram} /></Nav.Link>
+                    <Nav.Link href="https://www.youtube.com/#" target="self" ><Image src={Youtube} /></Nav.Link>
+                    <Nav.Link href="https://www.instagram.com/#" target="self"><Image src={Instagram} /></Nav.Link>
                     <Nav.Link href="https://wa.me/#" target="self"><Image src={Whatsapp} /></Nav.Link>
 
                 </Nav>
