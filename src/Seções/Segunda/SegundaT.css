@@ -13,35 +13,21 @@
 }
 
 .FotoPerfil {
-    margin-top: 13px;
-    width: 90%;
+    margin-top: 20px;
+    width: 85%;
     height: auto;
     margin-left: 10px;
     padding: 10px;
 
 }
 
-.Secao {
-    margin: 10px;
-    margin-bottom: 48px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 80%;
-    padding: 50px;
-    margin-left: 10%;
 
-
-
-}
 
 .ButaoDuvidas {
     background-color: #02ef65;
     border-radius: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 2px;
-    padding-bottom: 4px;
+    padding: 10px 30px 10px 30px;
+    margin: 0px 0px 20px 0px;
     border: none;
     transition: 'background-color: #5dccf1 0.3 ease-in';
 }
@@ -55,4 +41,22 @@
         display: inline-block;
         white-space: nowrap;
     }
+}
+
+aside p {
+    font-weight: 700;   
+}
+
+aside h1 {
+    font-weight: 600;
+    
+}
+aside h5 {
+    margin-top: 20px;
+}
+
+
+h5{
+    font-weight: 400;
+    color: #02b4ef;
 }
